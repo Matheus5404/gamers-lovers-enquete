@@ -1,0 +1,78 @@
+.container {
+    margin: 5rem auto;
+    padding: 20px;
+    background-color: #1B263B; /* azul claro para o fundo do container */
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafdea;
+    color: #fff;
+}
+
+.container {
+    max-width: 43.7rem;
+    margin: 0 auto;
+    padding: 5px 32px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    color: #FFD700; /* Amarelo dourado para destaque */
+}
+
+.formulario-voto {
+    background-color: #405170;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.img-votos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.img-votos div {
+    background-color: #415A77;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #ccc;
+    font-size: 0.9em;
+}

@@ -129,3 +129,85 @@ button:active {
     color: #ccc;
     font-size: 0.9em;
 }
+
+/* Responsivo para tablets (até 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        padding: 20px;
+    }
+
+    .img-votos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-votos div {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 90%;
+    }
+
+    button {
+        font-size: 18px;
+        width: 50%;
+    }
+}
+
+/* Responsivo para celulares (até 600px) */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .formulario-voto {
+        padding: 40px;
+    }
+
+    .formulario-titulo {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .img-votos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img-votos div {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .subtitle-imgs {
+        font-size: 1.2em;
+    }
+
+    .img-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .header p {
+        font-size: 0.95em;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
